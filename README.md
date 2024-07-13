@@ -1,9 +1,9 @@
 A simple script that syncs your liked songs on Spotify to a playlist.
 
 Requirements:
-[Python](https://www.python.org/downloads/)
-Pip (Run `python -m ensurepip` if its not installed)
-Spotipy (Run `pip install spotipy`)
+1. [Python](https://www.python.org/downloads/)
+2. Pip (Run `python -m ensurepip` if its not installed)
+3. Spotipy (Run `pip install spotipy`)
 
 Setup:
 
