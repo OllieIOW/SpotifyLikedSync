@@ -20,6 +20,6 @@ Once you have completed the setup, you can run the `sync.py` file. All your like
 
 Automation (windows):
 
-1. Place the `sync.bat` in the same folder as `sync.py`, if you dont want a cmd window to open also drop `sync.vbs` into the folder and make a shortcus of that instead.
+1. Place the `sync.bat` in the same folder as `sync.py`. If you dont want a cmd window to open also drop `sync.vbs` into the folder and make a shortcus of that instead.
 2. Press Win+R and type `shell:startup`.
 3. create a shortcut in the startup folder to your `sync.bat` file.
