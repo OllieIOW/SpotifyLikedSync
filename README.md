@@ -1,11 +1,13 @@
 A simple script that syncs your liked songs on Spotify to a playlist.
 
+
 Requirements:
 1. [Python](https://www.python.org/downloads/)
 2. Pip (Run `python -m ensurepip` if its not installed)
 3. Spotipy (Run `pip install spotipy`)
 
-Setup:
+
+Setup (windows):
 
 1. Visit the [Spotify Developer Dashboard](https://developer.spotify.com/) and log in with your Spotify account.
 2. Once logged in, go to the [Dashboard](https://developer.spotify.com/dashboard) and accept the terms.
@@ -16,8 +18,7 @@ Setup:
 Once you have completed the setup, you can run the `sync.py` file. All your liked songs will be synced to a playlist.
 
 
-
-How to automate the process in windows:
+Automation (windows):
 
 1. Place the `sync.bat` in the same folder as `sync.py`
 2. Press Win+R and type `shell:startup`
