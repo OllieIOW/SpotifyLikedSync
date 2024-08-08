@@ -42,7 +42,7 @@ sp.user_playlist_replace_tracks(user_id, playlist_id, liked_songs[:100])
 for i in range(100, len(liked_songs), 100):
     sp.user_playlist_add_tracks(user_id, playlist_id, liked_songs[i:i+100])
 
-sync_time = datetime.now().strftime("%d-%m-%Y @ %H:%M:%S")
+sync_time = datetime.now().strftime("%d/%m/%Y @ %H:%M:%S")
 description = f"This playlist was synced automatically at {sync_time}"
 sp.user_playlist_change_details(user_id, playlist_id, description=description)
 
